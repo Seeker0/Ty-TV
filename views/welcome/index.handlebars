@@ -1,0 +1,24 @@
+<div class="row">
+  <div style="border: 2px solid blue;" class="col-sm-12">
+    <h2>Welcome {{user.name}}</h2>
+    <p>What would you like to watch today?</p>
+  </div>
+</div>
+
+<div style="margin-top: 20px;" class="row">
+  <div style="background-color: #f27209; padding-bottom: 15px;" class="col-sm-12">
+      <h1 style="color: white;">Your Favorites:</h1>
+      {{#each (pairs user.shows ) as |pair|}}
+          <div class='row option-box'>
+            <div class='col-xs-5 image-container'>
+              <img src={{pair.show1.data.image}}>
+              <p class='caption'>{{pair.show1.index}}</p>
+            </div>
+            <div class='col-xs-5 image-container'>
+              <img src={{pair.show2.data.image}}>
+              <p class='caption'>{{pair.show2.index}}</p>
+            </div>
+          </div>
+      {{/each}}
+  </div>
+</div>

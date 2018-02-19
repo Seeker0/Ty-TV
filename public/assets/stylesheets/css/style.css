@@ -1,0 +1,29 @@
+.caption {
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  color: #ffffff;
+  top: 141px;
+  left: 250;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  top: 75px;
+  padding-left: 240px;
+  font-size: 10em;
+}
+
+img {
+  width: 500px;
+  height: 282px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 15px 0 15px 0;
+}
+
+.option-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+}

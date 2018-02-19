@@ -1,0 +1,49 @@
+{
+  "name": "nov-hackaton-studious-chainsaw",
+  "version": "1.0.0",
+  "description": "HACKATON NOV 2017",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node seeds",
+    "seeds": "node seeds",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seeker0/nov-hackaton-studious-chainsaw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seeker0/nov-hackaton-studious-chainsaw/issues"
+  },
+  "homepage":
+    "https://github.com/Seeker0/nov-hackaton-studious-chainsaw#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cookie-session": "^2.0.0-beta.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-flash-messages": "^0.1.1",
+    "express-handlebars": "^3.0.0",
+    "express-method-override-get-post-support": "^1.0.1",
+    "fetch": "^1.1.0",
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^23.0.0",
+    "load-helpers": "^1.0.1",
+    "lodash": "^4.17.4",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.13.7",
+    "mongooseeder": "^2.0.6",
+    "morgan": "^1.9.0",
+    "morgan-toolkit": "^1.0.2",
+    "passport": "^0.4.0",
+    "passport-youtube-v3": "^2.1.0",
+    "youtube-search": "^1.0.10"
+  }
+}
