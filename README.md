@@ -3,7 +3,7 @@
 A personal project that allows my 3 year old son to turn on his favorite shows in the morning, without
 my help or the use of the remote; allowing me to get a few more minutes of extra sleep.
 
-![welcome screenshot](https://github.com/Seeker0/Ty-TV/blob/master/images/public/screenshot.png)
+![welcome screenshot](https://github.com/Seeker0/Ty-TV/blob/master/public/images/screenshot.png)
 
 ### Project Overview
 
